@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <style>
+      .header {
+        background-color: red;
+      }
+    </style>
+    <script type="module">
+      import {
+        animate,
+        scroll,
+      } from "https://cdn.jsdelivr.net/npm/motion@latest/+esm";
+
+      animate(
+        ".animateable",
+        { rotate: 360 },
+        { repeat: Infinity, duration: 2 }
+      );
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="h-[100vh] w-[100vw] flex overflow-hidden">
+    <div class="flex-1 flex justify-center items-center">
+      <div
+        class="animateable text-4xl text-center h-80 w-80 bg-blue-500 flex text-white p-[10px] items-center justify-center justify-center"
+      >
+        <p>html-to-webview with motion</p>
+      </div>
+    </div>
+  </body>
+</html>
