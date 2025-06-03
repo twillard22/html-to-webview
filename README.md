@@ -10,7 +10,7 @@ Full HTML allows importing of custom libraries etc... In this example I use [tai
 
 ## Cache
 
-Currently the HTML is cached so you need to restart the server with `pnpm start --clear` each time to have th change show. It would be nice to include this with HMR, i assume it's relatively trivial but I have not implemented this.
+--Currently the HTML is cached so you need to restart the server with `pnpm start --clear` each time to have th change show. It would be nice to include this with HMR, i assume it's relatively trivial but I have not implemented this.--
 
 ## Example
 
