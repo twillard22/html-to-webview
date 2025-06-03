@@ -1,4 +1,4 @@
 declare module "*.html" {
-  const content: string;
+  const content: number;
   export default content;
 }

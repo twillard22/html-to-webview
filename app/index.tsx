@@ -1,8 +1,8 @@
 import WebviewComponent from "@/components/webview-components";
+import { htmlToWebviewWithMotionHmr } from "@/static/html-to-webview-with-motion-hmr";
 
 import React from "react";
-import html from "../static/test.html";
 
 export default function Index() {
-  return <WebviewComponent>{html}</WebviewComponent>;
+  return <WebviewComponent>{htmlToWebviewWithMotionHmr}</WebviewComponent>;
 }
