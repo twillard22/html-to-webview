@@ -8,14 +8,10 @@ Inspired by https://docs.expo.dev/guides/dom-components/
 
 Full HTML allows importing of custom libraries etc... In this example I use [tailwind](https://tailwindcss.com/) and p[motion](https://motion.dev/)
 
-## Cache
-
---Currently the HTML is cached so you need to restart the server with `pnpm start --clear` each time to have th change show. It would be nice to include this with HMR, i assume it's relatively trivial but I have not implemented this.--
-
 ## Example
 
 <video src="https://github.com/user-attachments/assets/9e840acd-9a8a-44b0-8a65-2f20f681e73f"></video>
 
-## HMR IS HERE
+## HMR IS HERE!
 
 <video src="https://github.com/user-attachments/assets/8f7347e7-e1ab-4c30-873e-dafc745c4bae"></video>
