@@ -16,3 +16,6 @@ Currently the HTML is cached so you need to restart the server with `pnpm start 
 
 <video src="https://github.com/user-attachments/assets/9e840acd-9a8a-44b0-8a65-2f20f681e73f"></video>
 
+## HMR IS HERE
+
+<video src="https://github.com/user-attachments/assets/8f7347e7-e1ab-4c30-873e-dafc745c4bae"></video>
